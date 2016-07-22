@@ -1,6 +1,7 @@
 # Summary
 
 * [Foreword](README.md)
+* [REST](rest.md)
 * [Restful API](restful-api.md)
     * [Introduction](restful_api/introduction.md)
     * [Resource](restful_api/resource.md)
