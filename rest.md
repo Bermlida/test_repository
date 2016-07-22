@@ -1,3 +1,5 @@
+
+
 # REST
 
 **表述性狀態轉移**（英文：**Representational State Transfer**，簡稱 **REST**）
@@ -9,8 +11,6 @@
 獲得這些表述致使這些應用程序轉變了其狀態。隨著不斷獲取資源的表述，客戶端應用不斷地在轉變著其狀態，
 
 就是所謂的表述性狀態轉移（Representational State Transfer）。
-
-
 
 ### 概念
 
