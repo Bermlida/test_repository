@@ -8,7 +8,7 @@
     * [Response](response.md)
     * [Security](security.md)
 * [Usage](mamo.md)
-* [API Reference](chapter1.md)
+* [API Reference](api-reference.md)
     * [list all user](list-all-user.md)
     * [add user](add-user.md)
     * [delete user](delete-user.md)
