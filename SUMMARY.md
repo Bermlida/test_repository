@@ -11,5 +11,5 @@
 * [API Reference](chapter1.md)
     * [list all user](list-all-user.md)
     * [add user](add-user.md)
-    * [delete user](中文字文章.md)
+    * [delete user](delete-user.md)
 
