@@ -13,6 +13,6 @@
 2. 唯一資源（亦即對client而言只有一份的資源）用單數名詞
 3. 資源的層級架構，可以適當反應在 **API endpoint** 設計上，例如 \/books\/123\/chapters\/2
 
-Utility API與resource API性質不同，它的endpoint設計只要合理即可，例如\/search?q={keywords}。
-      建議URI components都用小寫，兩個字之間用減號-或底線\_隔開皆可，但應保持一致。（我個人偏好用-）
+
+建議 **URI** 都用小寫表示，兩個單字之間用**減號 \(dash\)  -  **或** 底線\(underline\) \_ **隔開皆可，但應保持一致。
 
