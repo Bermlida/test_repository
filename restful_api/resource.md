@@ -12,7 +12,7 @@
 
 而在 **RESTful API** 中，**REST **架構中的 **Nouns** ，
 
-對應於此指的是以 **統一資源標識符\(Uniform Resource Identifier**，簡稱 **URI \)**  來表示的各種不同的網路資源。
+對應於此指的是以 **統一資源標識符\( Uniform Resource Identifier**，簡稱 **URI \)**  來表示的各種不同的網路資源。
 
 ### **統一資源標識符**
 
