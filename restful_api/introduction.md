@@ -1,5 +1,7 @@
 # Introduction
 
+---
+
 ### **定義**
 
 符合REST設計風格的Web API稱為**RESTful API**。它從以下三個方面進行定義：
