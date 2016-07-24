@@ -4,7 +4,7 @@
 
 **具象狀態傳輸\( Representational State Transfer**，簡稱 **REST** **\)**
 
-**REST** 是一種軟體架構風格，其目的是構建可擴展的 Web Service，
+**REST** 是一種軟體架構風格，其目的是構建可擴展的 **Web Service**，
 
 ### 定義
 
