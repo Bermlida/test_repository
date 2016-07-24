@@ -4,7 +4,7 @@
 
 ---
 
-在 **REST **的架構中， **Content Types**，意指內容型別。
+在 **REST **的架構中，**content types**，意指內容型態。
 
 指的是針對網路上，以 **URI** 表示的各項**資源\(Resource\)**，其**表述**或各種**表現形式\(Representational\)**。
 

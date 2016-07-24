@@ -6,13 +6,13 @@
 
 ### **Data Elements**
 
-Data Elements 主要的概念為 **資源\(Resources\)** 與其 **表述形式\(Representations\)** 。
+Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Representations\)** 。
 
-在 **REST** 的系統架構中，所有的 **實體\(Entity\)** 即為 **資源\(Resources\)**，使用全域且唯一的 **資源標識符\(Resource Identifier\)** 進行識別與定義（設定為全域的目的是盡可能讓這樣的識別資源方法在不同系統中能夠正確地指向唯一的實體），並且有效地將資源與資源標識符進行對應，資源標識符的識別命名應當是直覺且合理的，以利 Components 透過 Connectors 進行操作。 
+在 **REST** 的系統架構中，所有的 **實體\(Entity\)** 即為 **資源\(Resources\)**，使用全域且唯一的 **資源標識符\(Resource Identifier\)** 進行識別與定義（設定為全域的目的是盡可能讓這樣的識別資源方法在不同系統中能夠正確地指向唯一的實體），並且有效地將資源與資源標識符進行對應，資源標識符的識別命名應當是直覺且合理的，以利 Components 透過 Connectors 進行操作。
 
-**表述形式\(Representations\)** 用來表示這個資源目前的狀態，為資源的表達形式，假設我們取得某位用戶的資料，可以使用 **Xml\(**_**application\/xml**_**\)**，也可以使用 **Json\(**_**application\/json**_**\)**_，_這兩者是兩種不同的表述形式。 
+**資源表述\(Representations\)** 用來表示這個資源目前的狀態，為資源的表達形式，假設我們取得某位用戶的資料，可以使用 **Xml\(****_application\/xml_****\)**，也可以使用 **Json\(****_application\/json_****\)**_，_這兩者是兩種不同的表達形式。
 
-**Client**\(**User Agent**\) 在實作上會依據表述形式來正確地 **渲染\(Render\)** 訊息。
+**Client**\(**User Agent**\) 在實作上會依據表達形式來正確地 **渲染\(Render\)** 訊息。
 
 ### **Connectors**
 
@@ -23,7 +23,6 @@ Connectors 包含了以下五種型態：
 * **Cache**：browser cache, Akamai cache network
 * **Resolver**：bind \(DNS lookup library\)
 * **Tunnel**：SOCKS, SSL after HTTP CONNECT
-
 
 Connectors 透過抽象的介面與 Components 進行溝通，在 **REST** 中所使用的連線都必須是 **Stateless\(無狀態\)** 的。
 
