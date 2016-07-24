@@ -4,6 +4,7 @@
 * [REST](rest.md)
     * [Introduction](rest/introduction.md)
     * [Constraints](rest/constraints.md)
+    * [Architectural Elements](architectural-elements.md)
 * [Restful API](restful-api.md)
     * [Introduction](restful_api/introduction.md)
     * [Resource](restful_api/resource.md)
