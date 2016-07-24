@@ -4,21 +4,21 @@
 
 ---
 
-在REST的架構中，  **Nouns** 是名詞，
+在 **REST **的架構中， **Nouns** 是名詞，
 
-指的是 **資源標識符\(** **Resource Identifier** **\)，**用來識別資源的名稱 。
+指的是 **資源標識符\(Resource Identifier\)，**用來識別資源的名稱 。
 
 定義各種各樣不同型式的名稱，以對應整個網路上的 各式各樣不同的資源。
 
-而在 **RESTful API** 中， REST架構中的 **Nouns** ，
+而在 **RESTful API** 中，**REST **架構中的 **Nouns** ，
 
- 對應於此指的是以**統一資源標識符 \(URI, Uniform Resource Identifier\)**  來表示的各種不同的網路資源。
+對應於此指的是以 **統一資源標識符\(Uniform Resource Identifier**，簡稱 **URI \)**  來表示的各種不同的網路資源。
 
 ### **統一資源標識符**
 
 ---
 
- **統一資源標識符\(URI\)** 是一個用於標識某項網路資源，定義其名稱的字串。 
+**統一資源標識符\(URI\)** 是一個用於標識某項網路資源，定義其名稱的字串。
 
 **URI** 由 **Prefix** + **API endpoint **組成。
 
