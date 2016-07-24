@@ -4,9 +4,21 @@
 
 ---
 
-在 **REST** 中的 **資源 \(Resource\)** 代表整個網路上的資源。
+在REST的架構中，  **Nouns** 是名詞，
 
-網路上提供了各式各樣的資源，而這些資源由 **統一資源標識符 \(URI, Uniform Resource Identifier\)**  來表示 。
+指的是 **資源標識符\(** **Resource Identifier** **\)，**用來識別資源的名稱 。
+
+定義各種各樣不同型式的名稱，以對應整個網路上的 各式各樣不同的資源。
+
+而在 **RESTful API** 中， REST架構中的 **Nouns** ，
+
+ 對應於此指的是以**統一資源標識符 \(URI, Uniform Resource Identifier\)**  來表示的各種不同的網路資源。
+
+### **統一資源標識符**
+
+---
+
+ **統一資源標識符\(URI\)** 是一個用於標識某項網路資源，定義其名稱的字串。 
 
 **URI** 由 **Prefix** + **API endpoint **組成。
 
