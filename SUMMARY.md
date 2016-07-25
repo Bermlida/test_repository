@@ -13,7 +13,7 @@
 * [Design](design.md)
     * [Request methods](design/request-methods.md)
     * [Headers](design/headers.md)
-* [Security](security.md)
+* [Security](security/README.md)
     * [HTTPS](security/https.md)
 * [Usage](usage.md)
 * [API Reference](api-reference.md)
