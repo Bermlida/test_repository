@@ -14,6 +14,7 @@
     * [Request methods](design/request-methods.md)
     * [Headers](design/headers.md)
 * [Security](security.md)
+    * HTTPS
 * [Usage](usage.md)
 * [API Reference](api-reference.md)
     * [list all user](api_reference/list-all-user.md)
