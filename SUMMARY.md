@@ -12,7 +12,7 @@
     * [Response](restful_api/response.md)
 * [Design](Design.md)
     * [Request methods](design/request-methods.md)
-    * [Headers](headers.md)
+    * [Headers](design/headers.md)
 * [Usage](usage.md)
 * [API Reference](api-reference.md)
     * [list all user](api_reference/list-all-user.md)
