@@ -13,7 +13,7 @@
 * [Design](design.md)
     * [Request methods](design/request-methods.md)
     * [Headers](design/headers.md)
-    * [Security](design/security.md)
+* [Security](design/security.md)
 * [Usage](usage.md)
 * [API Reference](api-reference.md)
     * [list all user](api_reference/list-all-user.md)
