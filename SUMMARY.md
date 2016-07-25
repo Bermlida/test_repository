@@ -11,6 +11,7 @@
     * [Request](restful_api/request.md)
     * [Response](restful_api/response.md)
 * [Design](Design.md)
+    * [Request methods](design/request-methods.md)
 * [Usage](usage.md)
 * [API Reference](api-reference.md)
     * [list all user](api_reference/list-all-user.md)
