@@ -10,7 +10,7 @@
     * [Resource](restful_api/resource.md)
     * [Request](restful_api/request.md)
     * [Response](restful_api/response.md)
-* [Design](Design.md)
+* [Design](design.md)
     * [Request methods](design/request-methods.md)
     * [Headers](design/headers.md)
 * [Usage](usage.md)
