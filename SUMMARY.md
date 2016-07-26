@@ -16,6 +16,7 @@
 * [Security](security/README.md)
     * [HTTPS](security/https.md)
     * [Access Control](security/access-control/README.md)
+        * HTTP Basic Authentication
 * [Usage](usage.md)
 * [API Reference](api-reference.md)
     * [list all user](api_reference/list-all-user.md)
