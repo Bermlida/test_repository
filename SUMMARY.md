@@ -5,7 +5,7 @@
     * [Introduction](rest/introduction.md)
     * [Constraints](rest/constraints.md)
     * [Architectural Elements](rest/architectural-elements.md)
-* [Restful API](restful-api.md)
+* [Restful API](restful_api/README.md)
     * [Introduction](restful_api/introduction.md)
     * [Resource](restful_api/resource.md)
     * [Request](restful_api/request.md)
