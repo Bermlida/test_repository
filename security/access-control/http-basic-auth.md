@@ -1,8 +1,8 @@
-# HTTP Basic Authentication
+# Basic Auth
 
 ---
 
-**HTTP基本認證\(HTTP Basic Authentication\)**，
+**基本認證\(Basic Auth\)**，
 
 是一種用來允許 Web 瀏覽器或其他客戶端程序在請求時提供包含用戶名和密碼的身份憑證進行登錄驗證的方式。
 
