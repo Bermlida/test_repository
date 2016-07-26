@@ -2,7 +2,7 @@
 
 ---
 
-**Access Control **指的是訪問控制，
+，
 
 客戶端\(Client\)使用**統一資源標識符\(URI\)**訪問想要存取的資源\(Resource\)，
 
