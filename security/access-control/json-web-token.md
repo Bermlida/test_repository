@@ -63,10 +63,6 @@ HMACSHA256(
 ```
 token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + encodeBase64(signature)
 # token is:
-:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0.YgUDoK-kIzdrSa0pph5rkW1wsv0FaOX6fXvl-5chpOc
 ```
-
-
-
-
 
