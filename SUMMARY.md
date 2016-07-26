@@ -1,7 +1,7 @@
 # Summary
 
 * [Foreword](README.md)
-* [REST](rest.md)
+* [REST](rest/README.md)
     * [Introduction](rest/introduction.md)
     * [Constraints](rest/constraints.md)
     * [Architectural Elements](rest/architectural-elements.md)
