@@ -27,3 +27,5 @@
 | PATCH | 更新資源部份內容 | 否 | 否 |
 | HEAD | 讀取資源，但只回傳 HTTP header | 是 | 是 |
 
+ttttt
+
