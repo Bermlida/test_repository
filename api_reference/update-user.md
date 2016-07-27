@@ -14,9 +14,9 @@
 
 | 參數名稱 | 類型 | 是否必選 | 描述 |
 | :--- | :--- | :--- | :--- |
-| name | string | 是 | 使用者名稱 |
-| email | string | 是 | 使用者 email |
-| password | string | 是 | 使用者密碼 |
+| name | string | 否 | 使用者名稱 |
+| email | string | 否 | 使用者 email |
+| password | string | 否 | 使用者密碼 |
 
 ## 範例
 
