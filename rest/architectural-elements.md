@@ -2,7 +2,7 @@
 
 ---
 
-在 **REST **的架構中， 定義了三種角色，分別是 **Data Elements, Connectors **與** Components**。
+在 **REST **的架構中， 定義了三種角色，分別是 **Data Elements, **連接器\(Connectors\)** **與** 組件\(Components\)**。
 
 ### **Data Elements**
 
@@ -10,13 +10,13 @@ Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Rep
 
 在 **REST** 的系統架構中，所有的 **實體\(Entity\)** 即為 **資源\(Resources\)**，使用全域且唯一的 **資源標識符\(Resource Identifier\)** 進行識別與定義（設定為全域的目的是盡可能讓這樣的識別資源方法在不同系統中能夠正確地指向唯一的實體），並且有效地將資源與資源標識符進行對應，資源標識符的識別命名應當是直覺且合理的，以利 Components 透過 Connectors 進行操作。
 
-**資源表述\(Representations\)** 用來表示這個資源目前的狀態，為資源的表達形式，假設我們取得某位用戶的資料，可以使用 **Xml\(**_`application/xml`_**\)**，也可以使用 **Json\(**_`application/json`_**\)**_，_這兩者是兩種不同的表達形式。
+**資源表述\(Representations\)** 用來表示這個資源目前的狀態，為資源的表達形式，假設我們取得某位用戶的資料，可以使用 **Xml\(**`application/xml`**\)**，也可以使用 **Json\(**`application/json`**\)**_，_這兩者是兩種不同的表達形式。
 
 **Client**\(**User Agent**\) 在實作上會依據表達形式來正確地 **渲染\(Render\)** 訊息。
 
-### **Connectors**
+### **連接器**
 
-Connectors 包含了以下五種型態：
+連接器包含了以下五種型態：
 
 * **Client**：libwww, libwww-perl
 * **Server**：libwww, Apache API, NSAPI
@@ -24,9 +24,11 @@ Connectors 包含了以下五種型態：
 * **Resolver**：bind \(DNS lookup library\)
 * **Tunnel**：SOCKS, SSL after HTTP CONNECT
 
-Connectors 透過抽象的介面與 Components 進行溝通，在 **REST** 中所使用的連線都必須是 **Stateless\(無狀態\)** 的。
+連接器是組件之間進行溝通的介面，透過不同型態的連接器，組件之間相應有著不同的溝通模式。
 
-Connectors 主要的運作形式為 **Client** 與 **Server**，由 **Server** 監聽 **Client** 所發出的 **Request** 並且回應 **Response**；
+**Client **通過發送 **請求\(Request\)** 來發起通訊；
+
+**Server** 監聽通訊，並對 **Client** 所發出的請求作出 **回應\(Response\)**；
 
 **Cache** 則實作在 **Client** 或 **Server** 中，針對實際的需要進行緩存；
 
