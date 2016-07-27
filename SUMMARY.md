@@ -11,6 +11,7 @@
     * [Request](restful_api/request.md)
     * [Response](restful_api/response.md)
 * [Design](design/README.md)
+    * [URI](design/uri.md)
     * [Request methods](design/request-methods.md)
     * [Headers](design/headers.md)
 * [Security](security/README.md)
