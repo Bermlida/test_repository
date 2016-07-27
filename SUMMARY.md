@@ -25,4 +25,5 @@
     * [List All User](api_reference/list-all-user.md)
     * [Add User](api_reference/add-user.md)
     * [Delete User](api_reference/delete-user.md)
+    * [Update User](api_reference/update-user.md)
 
