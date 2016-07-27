@@ -2,9 +2,9 @@
 
 ---
 
-在 **REST **的架構中， 定義了三種角色，分別是 **Data Elements, **連接器\(Connectors\)** **與** 組件\(Components\)**。
+在 **REST **的架構中， 定義了三種角色，分別是 **資料元素\(Data Elements\)** , **連接器\(Connectors\)** , **組件\(Components\)**。
 
-### **Data Elements**
+### 資料元素
 
 Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Representations\)** 。
 
@@ -47,9 +47,9 @@ Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Rep
 * **Gateway** ： Squid, CGI, Reverse Proxy
 * **Proxy** ： CERN Proxy, Netscape Proxy, Gauntlet
 
-**User Agent** 使用 **Client Connector** 對 **Server** 進行連線，並且實作如何正確地渲染來自於 **Server** 的 **Response** 。
+**User Agent** 使用 **Client** 發起請求，並接收來自 **Server** 的回應，是回應的最終接收者。
 
-**Origin Server** 透過 **Server Connector** 並且提供一個通用的 **介面\(Interface\)** 來接收 **Request**，透過介面隱藏資源的實作細節。
+**Origin Server** 透過 **Server **接收來自 **Client** 的請求，是請求的最終接收者；同時也是資料元素的管理者，對外提供一個通用的介面，透過介面隱藏資源的實作細節。
 
-而 **Gateway** 與 **Proxy** 能夠在 **Client** 與 **Server** 通訊的過程中增加效率與安全性。
+**Gateway** 與 **Proxy** 同時使用了 **Client** 與 **Server**，以便在請求 - 回應的過程中進行接收與轉發， 能在通訊過程中執行資料轉換或強化其安全性及性能等工作。
 
