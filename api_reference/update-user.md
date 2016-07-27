@@ -33,14 +33,14 @@ $ curl -X PUT http://laravel.framework/users/25 --data '
 
 ```
 {
- "flag": true,
- "data": {
- "name": "name556",
- "email": "email@email456.email",
- "updated_at": "2016-07-27 10:04:53",
- "created_at": "2016-07-27 10:04:53",
- "id": 26
- }
+    "flag":true,
+    "data": {
+        "id":25,
+        "name":"name65536",
+        "email":"email@emailemail.email",
+        "created_at":"2016-07-19 06:24:06",
+        "updated_at":"2016-07-19 06:24:06"
+    }
 }
 ```
 
