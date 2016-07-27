@@ -1,8 +1,8 @@
 # Response
 
-### 定義
-
 ---
+
+### 定義
 
 在 **REST **的架構中，**content types**，意指內容型態。
 
