@@ -16,7 +16,9 @@ Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Rep
 
 ### **連接器**
 
-連接器包含了以下五種型態：
+連接器是組件之間進行溝通的介面，透過不同型態的連接器，組件之間相應有著不同的溝通模式，
+
+包含了以下五種型態：
 
 * **Client**：libwww, libwww-perl
 * **Server**：libwww, Apache API, NSAPI
@@ -24,11 +26,9 @@ Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Rep
 * **Resolver**：bind \(DNS lookup library\)
 * **Tunnel**：SOCKS, SSL after HTTP CONNECT
 
-連接器是組件之間進行溝通的介面，透過不同型態的連接器，組件之間相應有著不同的溝通模式。
-
 **Client **通過發送 **請求\(Request\)** 來發起通訊；
 
-**Server** 監聽通訊，並對 **Client** 所發出的請求作出 **回應\(Response\)**；
+**Server** 監聽通訊，並對 **Client** 所發出的請求送出 **回應\(Response\)**；
 
 **Cache** 則實作在 **Client** 或 **Server** 中，針對實際的需要進行緩存；
 
@@ -36,11 +36,11 @@ Data Elements 主要的概念為 **資源\(Resources\)** 與 **資源表述\(Rep
 
 **Tunnel** 可以強制進行加密等等的工作。
 
-這些功能都是獨立的，但對於操作者來說都是隱藏且不可見的。
+### **組件**
 
-### Components
+組件是整個通訊過程中的，依其行為的不同，扮演不同角色的模組。
 
-Components 包含以下四種角色
+其中，根據行為的不同，包含以下四種角色類型：
 
 * **User Agent** ： Netscape Navigator, Lynx, MOMspider
 * **Origin Server** ： Apache httpd, Microsoft IIS
