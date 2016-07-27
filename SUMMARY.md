@@ -13,6 +13,7 @@
 * [Design](design/README.md)
     * [URI](design/uri.md)
     * [Request methods](design/request-methods.md)
+    * [Response](design/response.md)
     * [Headers](design/headers.md)
 * [Security](security/README.md)
     * [HTTPS](security/https.md)
