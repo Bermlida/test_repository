@@ -21,7 +21,7 @@
         * [Basic Auth](security/access-control/basic-auth.md)
         * [Json Web Token](security/access-control/json-web-token.md)
 * [Usage](usage.md)
-* [API Reference](api-reference.md)
+* [API Reference](api_reference/README.md)
     * [List All User](api_reference/list-all-user.md)
     * [Add User](api_reference/add-user.md)
     * [Delete User](api_reference/delete-user.md)
