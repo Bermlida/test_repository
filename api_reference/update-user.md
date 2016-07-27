@@ -1,11 +1,11 @@
-# Add User
+# Update User
 
-新增使用者
+更新使用者
 
 ## 路徑
 
 ```
-/users
+/users/{user_id}
 ```
 
 ## 參數
