@@ -23,11 +23,9 @@
 ### 請求
 
 ```
-$ curl -X POST http://laravel.framework/users --data '
+$ curl -X PUT http://laravel.framework/users/25 --data '
 {
- "name": "name556",
- "email": "email@email456.email",
- "password": "1234567890",
+ "name": "name65536"
 }'
 ```
 
