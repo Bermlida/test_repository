@@ -18,6 +18,7 @@
     * [HTTPS](security/https.md)
     * [Access Control](security/access-control/README.md)
         * [Basic Auth](security/access-control/basic-auth.md)
+        * [API Key](security/access-control/api-key.md)
         * [Json Web Token](security/access-control/json-web-token.md)
 * [API Reference](api_reference/README.md)
     * [List All User](api_reference/list-all-user.md)
