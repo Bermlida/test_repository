@@ -26,11 +26,11 @@ $ curl -X GET http://laravel.framework/users/19
 {
     "flag": true,
     "data": {
-        "id":20,
-        "name":"YhhhhhhhSSSSSSSSSSSSSSS",
-        "email":"email@email5.email",
-        "created_at":"2016-07-15 08:43:48",
-        "updated_at":"2016-07-15 08:55:35"
+        "id": 20,
+        "name": "YhhhhhhhSSSSSSSSSSSSSSS",
+        "email": "email@email5.email",
+        "created_at": "2016-07-15 08:43:48",
+        "updated_at": "2016-07-15 08:55:35"
     }
 }
 ```
