@@ -8,7 +8,7 @@
 
 意指針對網路上，以 URI 表示的各項資源進行的操作行為。
 
-而在 RESTful API 中， REST** **架構中的 verbs， 
+而在 **RESTful API** 中， **REST **架構中的 **verbs**，
 
 對應於此指的是 **超文本傳輸協定\(HTTP\) **所定義的 **各項請求方法\(Request Methods\)** 。
 
