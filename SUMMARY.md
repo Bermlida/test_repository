@@ -17,7 +17,7 @@
         * [Json Web Token](security/access-control/json-web-token.md)
 * [Design](design/README.md)
     * [URI](design/uri.md)
-    * [Request methods](design/request-methods.md)
+    * [Request Methods](design/request-methods.md)
     * [Response](design/response.md)
 * [API Reference](api_reference/README.md)
     * [List All User](api_reference/list-all-user.md)
