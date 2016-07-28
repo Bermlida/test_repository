@@ -74,3 +74,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQ
 Authorization: Bearer <token>
 ```
 
+流程如下圖：
+
+![](https://i2.read01.com/image.php?url=0D5sm801)
+
