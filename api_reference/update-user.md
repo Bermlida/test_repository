@@ -25,7 +25,7 @@
 ```
 $ curl -X PUT http://laravel.framework/users/25 --data '
 {
- "name": "name65536"
+  "name": "name65536"
 }'
 ```
 
@@ -33,13 +33,13 @@ $ curl -X PUT http://laravel.framework/users/25 --data '
 
 ```
 {
-    "flag":true,
+    "flag": true,
     "data": {
-        "id":25,
-        "name":"name65536",
-        "email":"email@emailemail.email",
-        "created_at":"2016-07-19 06:24:06",
-        "updated_at":"2016-07-19 06:24:06"
+        "id": 25,
+        "name": "name65536",
+        "email": "email@emailemail.email",
+        "created_at": "2016-07-19 06:24:06",
+        "updated_at": "2016-07-19 06:24:06"
     }
 }
 ```
