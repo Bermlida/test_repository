@@ -5,7 +5,7 @@
 ## 路徑
 
 ```
-/users/{user_id}
+PUT /users/{user_id}
 ```
 
 ## 參數
