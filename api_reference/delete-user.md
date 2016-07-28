@@ -24,8 +24,8 @@ $ curl -X DELETE http://laravel.framework/users/26
 
 ```
 {
-    "flag":true,
-    "message":"user delete"
+    "flag": true,
+    "message": "user delete"
 }
 ```
 
