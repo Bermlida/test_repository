@@ -1,7 +1,6 @@
+# Get User
 
-Delete User
-
-刪除使用者
+取得使用者
 
 ## 路徑
 
@@ -18,15 +17,21 @@ Delete User
 ### 請求
 
 ```
-$ curl -X DELETE http://laravel.framework/users/26
+$ curl -X GET http://laravel.framework/users/19
 ```
 
 ### 回應
 
 ```
 {
- "flag":true,
- "message":"user delete"
+    "flag": true,
+    "data": {
+        "id":20,
+        "name":"YhhhhhhhSSSSSSSSSSSSSSS",
+        "email":"email@email5.email",
+        "created_at":"2016-07-15 08:43:48",
+        "updated_at":"2016-07-15 08:55:35"
+    }
 }
 ```
 
