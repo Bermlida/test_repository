@@ -10,7 +10,7 @@
 
 定義各種各樣不同形式的名稱，以對應整個網路上的各式各樣不同的資源。
 
-而在 RESTful API 中，REST** **架構中的 nouns ，
+而在 **RESTful API** 中，**REST **架構中的 **nouns** ，
 
 對應於此指的是以 **統一資源標識符 \( Uniform Resource Identifier**，簡稱 **URI \)**  來表示的各種不同的網路資源。
 
