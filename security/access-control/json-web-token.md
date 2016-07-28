@@ -8,7 +8,7 @@
 
 也可以增加一些額外的其它業務邏輯所必須的聲明訊息，可以直接被用於認證，也可被加密。
 
-## 計算方式
+## 產生方式
 
 ![](http://blog.nsfocus.net/wp-content/uploads/2015/10/jwt.png)
 
@@ -68,7 +68,7 @@ token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + encodeBase64(
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0.YgUDoK-kIzdrSa0pph5rkW1wsv0FaOX6fXvl-5chpOc
 ```
 
-要使用 **JWT** 進行認證，發送請求時，須在標頭欄位設定認證資訊：
+發送請求時，在標頭欄位設定認證資訊：
 
 ```
 Authorization: Bearer <token>
