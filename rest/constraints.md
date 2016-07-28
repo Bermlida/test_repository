@@ -18,11 +18,11 @@
   可以在客戶端或服務端中實作 **緩存\(Cache\) **機制，以部分或完全的節省服務端及客戶端兩者間的通訊次數，並提高效率。
 
 * **一致性的操作界面\(Uniform Interface\)**
-  在 **Components** 之間使用一致性的操作介面 ，透過 **介面\(Interface\)** 降低 **耦合\(Coupling\) **並提高 **獨立性\(Independent\)。**
+  在 **Components** 之間使用一致性的操作介面，透過 **介面\(Interface\)** 降低 **耦合\(Coupling\) **並提高 **獨立性\(Independent\)。**
   這項條件\/原則下包括以下幾個項目：
 
-  * **資料標識符\(Identification of resources\)**
-    每個資源都有各自的標識符。客戶端在請求時需要指定該標識符。
+  * **資源標識符\(Identification of resources\)**
+    每個資源都有各自的標識符，客戶端在請求時需要指定該標識符。
   * **透過資源的表現形式進行資源的操作\(Manipulation of resources through these representations\)**
     客戶端根據所得到的資源的表現形式中包含的訊息來了解如何操作資源，例如對資源進行修改或刪除。
   * **自我描述性的訊息\(Self-descriptive messages\)**
