@@ -5,7 +5,7 @@
 ## 路徑
 
 ```
-/users
+POST /users
 ```
 
 ## 參數
