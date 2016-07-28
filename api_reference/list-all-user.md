@@ -17,7 +17,7 @@
 ### 請求
 
 ```
-curl -X GET http://laravel.framework/users
+$ curl -X GET http://laravel.framework/users
 ```
 
 ### 回應
