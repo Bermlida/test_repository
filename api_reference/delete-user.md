@@ -2,7 +2,7 @@
 
 刪除使用者
 
-## 路徑
+## 定義
 
 ```
 DELETE /users/{user_id}

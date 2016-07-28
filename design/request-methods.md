@@ -1,4 +1,4 @@
-# Request methods
+# Request Methods
 
 ---
 
