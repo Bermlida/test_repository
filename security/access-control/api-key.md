@@ -16,7 +16,7 @@
 
 ### 服務端流程：
 
-1. 服務端接收請求後，首先驗證 api\_key 是否存在，存在則獲取該 api\_key 的 security\_key。
+1. 服務端接收請求後，首先驗證 api\_key 是否存在，若存在則獲取該 api\_key 的 security\_key。
 2. 接著驗證 timestrap 是否超過時間限制。
 3. 依據接收到的 api\_key、security\_key、timestrap，加上客戶請求的 URI，採用與客戶端計算簽章相同的計算方式計算出簽章值
 4. 最後，將計算出的簽章值與客戶端發送的簽章值進行校驗。
