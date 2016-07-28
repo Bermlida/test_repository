@@ -14,13 +14,13 @@ GET /users/{user_id}
 
 ## 範例
 
-### 請求
+### 請求：
 
 ```
 $ curl -X GET http://laravel.framework/users/19
 ```
 
-### 回應
+### 回應：
 
 ```
 {

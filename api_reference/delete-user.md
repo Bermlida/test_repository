@@ -14,13 +14,13 @@ DELETE /users/{user_id}
 
 ## 範例
 
-### 請求
+### 請求：
 
 ```
 $ curl -X DELETE http://laravel.framework/users/26
 ```
 
-### 回應
+### 回應：
 
 ```
 {
