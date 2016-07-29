@@ -10,7 +10,7 @@
 
 ## 權**杖結構**
 
-JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Claim set\)、簽名\(Signature\)，
+JWT 共分為三個部分：**頭部\(Header\)**、**載荷\(Payload**，也可稱為** Claim set\)**、**簽名\(Signature\)**，
 三個部分之間以句號 . 串接後，即組成完整的 JWT。
 
 ![](http://blog.nsfocus.net/wp-content/uploads/2015/10/jwt.png)
