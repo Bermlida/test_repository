@@ -52,6 +52,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
 * 私有的聲明，是服務端和客戶端所共同定義的聲明，一般不建議存放敏感信息，因為 base64 是對稱解密的，意味著該部分信息可以歸類為明文信息。
 
+
 ```
 payload = {
     "iss": "http://example.org",
@@ -91,6 +92,12 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQ
 ```
 Authorization: Bearer <token>
 ```
+
+## 運作方式
+
+### 服務端流程：
+
+1. 客戶端先向服務端註冊，客戶端先向服務端註冊，
 
 流程如下圖：
 
