@@ -22,5 +22,18 @@
 
 以下列出了，在設計 RESTful API 時，常用的狀態代碼清單：
 
+* `200 OK` ：成功執行 GET、PUT、PATCH 或 DELETE 時使用，也可用於當 POST 不是新增資源的操作行為。
+* `201 Created` ：使用 POST 並成功建立資源時回應此狀態碼，同時在標頭以 location 欄位提供定位至新資源的 URI
+* 204 No Content - Response to a successful request that won't be returning a body \(like a DELETE request\)
+* 304 Not Modified - Used when HTTP caching headers are in play
+* 400 Bad Request - The request is malformed, such as if the body does not parse
+* 401 Unauthorized - When no or invalid authentication details are provided. Also useful to trigger an auth popup if the API is used from a browser
+* 403 Forbidden - When authentication succeeded but authenticated user doesn't have access to the resource
+* 404 Not Found - When a non-existent resource is requested
+* 405 Method Not Allowed - When an HTTP method is being requested that isn't allowed for the authenticated user
+* 410 Gone - Indicates that the resource at this end point is no longer available. Useful as a blanket response for old API versions
+* 415 Unsupported Media Type - If incorrect content type was provided as part of the request
+* 422 Unprocessable Entity - Used for validation errors
+* 429 Too Many Requests - When a request is rejected due to rate limiting
 
 
