@@ -54,6 +54,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
 * 私有的聲明，是服務端和客戶端所共同定義的聲明，一般不建議存放敏感信息，因為 base64 是對稱解密的，意味著該部分信息可以歸類為明文信息。
 
+
 先定義載荷的 JSON 結構
 
 ```
@@ -90,31 +91,16 @@ token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + encodeBase64(
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0.YgUDoK-kIzdrSa0pph5rkW1wsv0FaOX6fXvl-5chpOc
 ```
 
-發送請求時，在標頭欄位設定認證資訊：
-
-```
-Authorization: Bearer <token>
-```
-
-## 運作方式
+# 運作方式
 
 ### 服務端流程：
 
-1. 客戶端先向服務端註冊，服務端產製 JWT，過程如下：
+1. 客戶端先向服務端註冊，並取得 JWT 。
 
-  * 頭部
+2. 客戶端
 
-    ```
-    header = {                # 聲明 JSON 結構
-       "typ": "JWT",        # 聲明類型是 JWT
-       "alg": "HS256"       # 聲明簽名所用的加密演算法是 HS256
-    }
+3. 流程如下圖：
 
-    ```
-
-
-
-流程如下圖：
 
 ![](https://i2.read01.com/image.php?url=0D5sm801)
 
