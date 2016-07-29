@@ -81,7 +81,7 @@ eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQi
 ```
 Signature = HMACSHA256(
     base64UrlEncode(header) + “." + base64UrlEncode(payload),
-    secret
+    'secret'
 )
 ```
 
