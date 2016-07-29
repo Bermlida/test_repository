@@ -106,8 +106,7 @@ Signature = HMACSHA256(
 
 ### 服務端流程
 
-1. 
-  ffff
+1. 根據 JWT 的簽名部分，驗證頭部及載荷的內容ffff
   ddddd
   ddddd
 
