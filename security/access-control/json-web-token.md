@@ -66,7 +66,7 @@ payload = {
 }
 ```
 
-接著以 Base64 的方式編碼
+接著以 **Base64** 的方式編碼
 
 ```
 eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0
