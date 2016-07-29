@@ -79,7 +79,7 @@ eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQi
 而得到簽名內容：
 
 ```
-HMACSHA256(
+Signature = HMACSHA256(
     base64UrlEncode(header) + “." + base64UrlEncode(payload),
     secret
 )
@@ -88,7 +88,7 @@ HMACSHA256(
 ### 完整結構
 
 ```
-token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + encodeBase64(signature)
+token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + Signature
 # token is:
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0.YgUDoK-kIzdrSa0pph5rkW1wsv0FaOX6fXvl-5chpOc
 ```
