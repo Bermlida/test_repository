@@ -85,19 +85,17 @@ Signature = HMACSHA256(
 )
 ```
 
-### 完整結構
-
-```
-token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + Signature
-# token is:
-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0.YgUDoK-kIzdrSa0pph5rkW1wsv0FaOX6fXvl-5chpOc
-```
-
-# 運作方式
+### 運作方式
 
 ### 客戶端流程：
 
 1. 客戶端先向服務端註冊，並取得 JWT 。
+
+  ```
+  token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + Signature
+  # token is:
+  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0.YgUDoK-kIzdrSa0pph5rkW1wsv0FaOX6fXvl-5chpOc
+  ```
 
 2. 客戶端發送請求時，在標頭欄位設定認證資訊：
 
@@ -105,10 +103,13 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQ
   Authorization: Bearer <token>
   ```
 
-服務端流程
-ffff
-ddddd
-ddddd
+
+### 服務端流程
+
+1. 
+  ffff
+  ddddd
+  ddddd
 
 ![](https://i2.read01.com/image.php?url=0D5sm801)
 
