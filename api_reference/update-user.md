@@ -20,7 +20,7 @@ PUT /users/{user_id}
 
 ## 範例
 
-### 請求
+### 請求：
 
 ```
 $ curl -X PUT http://laravel.framework/users/25 --data '
@@ -29,7 +29,7 @@ $ curl -X PUT http://laravel.framework/users/25 --data '
 }'
 ```
 
-### 回應
+### 回應：
 
 ```
 {

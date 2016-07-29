@@ -20,7 +20,7 @@ POST /users
 
 ## 範例
 
-### 請求
+### 請求：
 
 ```
 $ curl -X POST http://laravel.framework/users --data '
@@ -31,7 +31,7 @@ $ curl -X POST http://laravel.framework/users --data '
 }'
 ```
 
-### 回應
+### 回應：
 
 ```
 {
