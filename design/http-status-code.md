@@ -23,7 +23,7 @@
 以下列出了，在設計 RESTful API 時，常用的狀態代碼清單：
 
 * `200 OK` ：成功執行 GET、PUT、PATCH 或 DELETE 時使用，也可用於當 POST 不是新增資源的操作行為。
-* `201 Created` ：使用 POST 並成功建立資源時回應此狀態碼，同時在標頭以 location 欄位提供定位至新資源的 URI
+* `201 Created` ：使用 POST 並成功建立資源時回應此狀態碼，同時在標頭以 location 欄位提供定位至新資源的 URI 。
 * 204 No Content - Response to a successful request that won't be returning a body \(like a DELETE request\)
 * 304 Not Modified - Used when HTTP caching headers are in play
 * 400 Bad Request - The request is malformed, such as if the body does not parse
@@ -35,5 +35,4 @@
 * 415 Unsupported Media Type - If incorrect content type was provided as part of the request
 * 422 Unprocessable Entity - Used for validation errors
 * 429 Too Many Requests - When a request is rejected due to rate limiting
-
 
