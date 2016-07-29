@@ -95,13 +95,18 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQ
 
 # 運作方式
 
-### 服務端流程：
+### 客戶端流程：
 
 1. 客戶端先向服務端註冊，並取得 JWT 。
 
-2. 客戶端
+2. 客戶端發送請求時，在標頭欄位設定認證資訊：
 
-3. 流程如下圖：
+  ```
+  Authorization: Bearer <token>
+  ```
+
+
+
 
 
 ![](https://i2.read01.com/image.php?url=0D5sm801)
