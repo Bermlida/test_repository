@@ -19,7 +19,7 @@ JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Cl
 
 用來描述 **JWT** 的基本訊息，例如其類型或簽名所用的演算法。
 
-包括兩個訊息欄位：typ 指明 Token 的類型，alg 則說明簽名所用的演算法。
+包括兩個訊息欄位：**typ** 指明 Token 的類型，**alg** 則說明簽名所用的演算法。
 
 先定義頭部的 JSON 結構
 
@@ -30,7 +30,7 @@ JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Cl
  }
 ```
 
-接著以 Base64 的方式編碼
+接著以 **Base64** 的方式編碼
 
 ```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
@@ -42,13 +42,13 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
 * 標準中註冊的聲明，包含以下訊息欄位：
 
-  * iss：JWT 的簽發者
-  * sub：JWT 所面向的用戶
-  * aud：JWT 的接收方
-  * iat：JWT 的簽發時間
-  * exp：JWT 的過期時間，這個過期時間必須要大於簽發時間
-  * nbf：定義在什麼時間之前，該 JWT 都是不可用的.
-  * jti：JWT 的唯一身份標識，主要用來作為一次性的權杖，從而迴避[重放攻擊](https://zh.wikipedia.org/wiki/%E9%87%8D%E6%94%BE%E6%94%BB%E5%87%BB)。
+  * **iss**：JWT 的簽發者
+  * **sub**：JWT 所面向的用戶
+  * **aud**：JWT 的接收方
+  * **iat**：JWT 的簽發時間
+  * **exp**：JWT 的過期時間，這個過期時間必須要大於簽發時間
+  * **nbf**：定義在什麼時間之前，該 JWT 都是不可用的.
+  * **jti**：JWT 的唯一身份標識，主要用來作為一次性的權杖，從而迴避[重放攻擊](https://zh.wikipedia.org/wiki/%E9%87%8D%E6%94%BE%E6%94%BB%E5%87%BB)。
 
 * 公共的聲明，可以添加任何的訊息，一般添加用戶的相關信息或其他業務功能需要的必要信息，不建議添加敏感信息，因為該部分在客戶端可解密.
 
