@@ -21,7 +21,7 @@ JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Cl
 
 包括兩個訊息欄位：typ 指明 Token 的類型，alg 則說明簽名所用的演算法。
 
-先定義頭部
+先定義頭部的 JSON 結構
 
 ```
  header = {
@@ -100,11 +100,13 @@ Authorization: Bearer <token>
 ### 服務端流程：
 
 1. 客戶端先向服務端註冊，服務端產製 JWT，過程如下：
+
   * 頭部
+
     ```
     header = {                # 聲明 JSON 結構
-         "typ": "JWT",        # 聲明類型是 JWT
-         "alg": "HS256"       # 聲明簽名所用的加密演算法是 HS256
+        "typ": "JWT",        # 聲明類型是 JWT
+        "alg": "HS256"       # 聲明簽名所用的加密演算法是 HS256
     }
 
     ```
