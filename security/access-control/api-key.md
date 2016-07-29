@@ -23,13 +23,13 @@
 3. 依據接收到的 api\_key、security\_key、timestrap，加上客戶請求的 URI，採用與客戶端計算簽章相同的計算方式計算出簽章值
 4. 最後，將計算出的簽章值與客戶端發送的簽章值進行校驗。
 
-## 範例：
+## 範例
 
-### 客戶端
+### 客戶端流程：
 
 ![](http://fanli7.net/uploads/allimg/2016-05-16/2015101611045213385client.png)
 
-### 服務端
+### 服務端流程：
 
 ![](http://fanli7.net/uploads/allimg/2016-05-16/2015101611045762856server.png)
 
