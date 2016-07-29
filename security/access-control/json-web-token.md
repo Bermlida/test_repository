@@ -85,7 +85,7 @@ HMACSHA256(
 )
 ```
 
-
+### 完整結
 
 ```
 token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + encodeBase64(signature)
