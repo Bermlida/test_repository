@@ -19,10 +19,16 @@
 在範例中，typ 指明 Token 的類型是 JWT，alg 則說明簽名所用的演算法是 HS256：
 
 ```
- {
+ header = {
      "typ": "JWT",        # 聲明類型
      "alg": "HS256"       # 聲明簽名所用的加密演算法 
- } 
+ }
+```
+
+接著以 Base64 的方式編碼
+
+```
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 ```
 
 ### **載荷\(Payload**，也可稱為** Claim set\)**
