@@ -24,12 +24,12 @@
 
 * `200 OK` ：成功執行 GET、PUT、PATCH 或 DELETE 時使用，也可用於當 POST 不是新增資源的操作行為。
 * `201 Created` ：使用 POST 並成功建立資源時回應此狀態碼，同時在標頭以 location 欄位提供定位至新資源的 URI 。
-* 204 No Content - Response to a successful request that won't be returning a body \(like a DELETE request\)
-* 304 Not Modified - Used when HTTP caching headers are in play
-* 400 Bad Request - The request is malformed, such as if the body does not parse
-* 401 Unauthorized - When no or invalid authentication details are provided. Also useful to trigger an auth popup if the API is used from a browser
-* 403 Forbidden - When authentication succeeded but authenticated user doesn't have access to the resource
-* 404 Not Found - When a non-existent resource is requested
+* `204 No Content` ：當回應結果不包括實體內容時使用，像是成功執行 DELETE 的時候。
+* `304 Not Modified` ：當HTTP緩存標頭起作用時，使用此狀態碼回應。
+* `400 Bad Request` ：請求是畸形的, 比如無法解析請求內容。
+* `401 Unauthorized` ：當客戶端未認證或認證未通過時使用；如果 API 是用瀏覽器呼叫，也可用於觸發一個認證彈出視窗。
+* `403 Forbidden` ：當通過認證的客戶端對所請求的資源無存取權限時回應此狀態碼。
+* `404 Not Found` ：當客戶端試圖請求操作不存在的資源時使用此狀態碼。
 * 405 Method Not Allowed - When an HTTP method is being requested that isn't allowed for the authenticated user
 * 410 Gone - Indicates that the resource at this end point is no longer available. Useful as a blanket response for old API versions
 * 415 Unsupported Media Type - If incorrect content type was provided as part of the request
