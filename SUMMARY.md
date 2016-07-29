@@ -14,6 +14,7 @@
     * [URI](design/uri.md)
     * [Request Methods](design/request-methods.md)
     * [Response](design/response.md)
+    * [HTTP Status Code](design/http-status-code.md)
 * [Security](security/README.md)
     * [HTTPS](security/https.md)
     * [Access Control](security/access-control/README.md)
