@@ -109,7 +109,9 @@ Signature = HMACSHA256(
 1. 根據 JWT 的簽名部分，驗證頭部及載荷的內容。
 2. 從頭部及載荷取得用戶資訊，依據用戶資訊進行認證。 
 
-流程圖
+
+
+### 流程圖
 
 ![](https://i2.read01.com/image.php?url=0D5sm801)
 
