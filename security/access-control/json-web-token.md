@@ -74,7 +74,7 @@ eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQi
 
 ### 簽名
 
-會先將標頭和載荷的原始內容分別以 **Base64** 的方式編碼，以 **句號 .  **串接後，接著以保存在服務端的特定字串[加鹽](https://zh.wikipedia.org/wiki/%E7%9B%90_(%E5%AF%86%E7%A0%81%E5%AD%A6)，
+會先將標頭和載荷的原始內容分別以 **Base64** 的方式編碼，以 **句號 .  **串接後，接著以保存在服務端的特定字串[加鹽](https://goo.gl/hUFwl5)，
 
 最後以標頭指定的加密演算法進行加密，而得到簽名內容：
 
