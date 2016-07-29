@@ -10,12 +10,12 @@
 
 ## 權**杖結構**
 
-JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Claim set\)、簽證\(Signature\)，
+JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Claim set\)、簽名\(Signature\)，
 三個部分之間以句號 . 串接後，即組成完整的 JWT。
 
 ![](http://blog.nsfocus.net/wp-content/uploads/2015/10/jwt.png)
 
-### 頭部**\(Header\)**
+### 頭部
 
 用來描述 **JWT** 的基本訊息，例如其類型或簽名所用的演算法。
 
@@ -36,7 +36,7 @@ JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Cl
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 ```
 
-### **載荷\(Payload**，也可稱為** Claim set\)**
+### **載荷**
 
 載荷就是存放有效訊息的地方。就像是飛機上承載的貨品，這些有效訊息包含三個部分
 
@@ -72,7 +72,7 @@ payload = {
 eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0
 ```
 
-### 簽證**\(Signature\)**
+### 簽名
 
 會先將標頭和載荷的原始內容分別以 **Base64** 的方式編碼，以 **句號 .  **串接後，再以標頭指定的演算法搭配金鑰進行加密，
 
@@ -108,8 +108,6 @@ Signature = HMACSHA256(
 
 1. 根據 JWT 的簽名部分，驗證頭部及載荷的內容。
 2. 從頭部及載荷取得用戶資訊，依據用戶資訊進行認證。 
-
-
 
 ### 流程圖
 
