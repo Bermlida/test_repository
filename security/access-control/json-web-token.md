@@ -10,6 +10,9 @@
 
 ## 權**杖結構**
 
+JWT 共分為三個部分，頭部\(Header\)、載荷\(Payload，也可稱為 Claim set\)、簽證\(Signature\)，
+三個部分之間以句號 . 串接後，即組成完整的 JWT。
+
 ![](http://blog.nsfocus.net/wp-content/uploads/2015/10/jwt.png)
 
 ### 頭部**\(Header\)**
@@ -33,19 +36,24 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 
 ### **載荷\(Payload**，也可稱為** Claim set\)**
 
-此部份是 **JWT** 的主要資料部分\(本文\)，
+載荷就是存放有效訊息的地方。就像是飛機上承載的貨品，這些有效訊息包含三個部分
 
-可依實際需要增減欄位內容，可用的欄位定義在[規範文件](https://tools.ietf.org/html/rfc7519)都找得到。
+* 標準中註冊的聲明，包含以下訊息欄位：
 
-範例欄位定義如下：
+  * iss：JWT 的簽發者
+  * sub：JWT 所面向的用戶
+  * aud：JWT 的接收方
+  * iat：JWT 的簽發時間
+  * exp：JWT 的過期時間，這個過期時間必須要大於簽發時間
+  * nbf：定義在什麼時間之前，該 JWT 都是不可用的.
+  * jti：JWT 的唯一身份標識，主要用來作為一次性的權杖，從而迴避[重放攻擊](https://zh.wikipedia.org/wiki/%E9%87%8D%E6%94%BE%E6%94%BB%E5%87%BB)。
 
-* iss：JWT 的簽發者
-* aud：JWT 的接收方
-* iat：簽發 JWT 時的時間戳記
-* exp：JWT 什麼時候過期
+* 公共的聲明，可以添加任何的訊息，一般添加用戶的相關信息或其他業務功能需要的必要信息，不建議添加敏感信息，因為該部分在客戶端可解密.
+
+* 私有的聲明，是服務端和客戶端所共同定義的聲明，一般不建議存放敏感信息，因為 base64 是對稱解密的，意味著該部分信息可以歸類為明文信息。
 
 ```
-{
+payload = {
     "iss": "http://example.org",
     "aud": "http://example.com",
     "iat": 1356999524,
@@ -53,11 +61,17 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
 }
 ```
 
+接著以 Base64 的方式編碼
+
+```
+eyJpc3MiOiJodHRwOi8vZXhhbXBsZS5vcmciLCJhdWQiOiJodHRwOi8vZXhhbXBsZS5jb20iLCJpYXQiOjEzNTY5OTk1MjQsImV4cCI6MTM1NzAwMDAwMH0
+```
+
 ### 簽證**\(Signature\)**
 
-會先將標頭和載荷的內容分別以 **Base64** 的方式編碼，以 **句號 .  **串接後，
+會先將標頭和載荷的原始內容分別以 **Base64** 的方式編碼，以 **句號 .  **串接後，再以標頭指定的演算法搭配金鑰進行加密，
 
-再以標頭指定的演算法搭配金鑰進行加密，而得到簽名內容：
+而得到簽名內容：
 
 ```
 HMACSHA256(
@@ -65,8 +79,6 @@ HMACSHA256(
     secret
 )
 ```
-
-最後，再將標頭、載荷、簽名三個部分各別以 **Base64** 的方式編碼 ，之間以 **句號 .  **串接後，即獲得 **JWT** 的完整內容：
 
 ```
 token = encodeBase64(header) + '.' + encodeBase64(payload) + '.' + encodeBase64(signature)
