@@ -21,6 +21,7 @@
         * [API Key](security/access-control/api-key.md)
         * [Access Token](security/access-control/access-token.md)
         * [Json Web Token](security/access-control/json-web-token.md)
+    * [Request Verification](security/request-verification.md)
 * [API Reference](api_reference/README.md)
     * [List All User](api_reference/list-all-user.md)
     * [Add User](api_reference/add-user.md)
