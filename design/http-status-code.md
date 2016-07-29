@@ -30,9 +30,9 @@
 * `401 Unauthorized` ：當客戶端未認證或認證未通過時使用；如果 API 是用瀏覽器呼叫，也可用於觸發一個認證彈出視窗。
 * `403 Forbidden` ：當通過認證的客戶端對所請求的資源無存取權限時回應此狀態碼。
 * `404 Not Found` ：當客戶端試圖請求操作不存在的資源時使用此狀態碼。
-* 405 Method Not Allowed - When an HTTP method is being requested that isn't allowed for the authenticated user
-* 410 Gone - Indicates that the resource at this end point is no longer available. Useful as a blanket response for old API versions
-* 415 Unsupported Media Type - If incorrect content type was provided as part of the request
-* 422 Unprocessable Entity - Used for validation errors
-* 429 Too Many Requests - When a request is rejected due to rate limiting
+* `405 Method Not Allowed`：當一個對認證用戶禁止的HTTP方法被請求時。
+* `410 Gone`：表示資源在終端不再可用。當訪問舊版本 API 時，作為一個通用回應很有用。
+* `415 Unsupported Media Type`：如果請求中包含了不正確的內容類型。
+* `422 Unprocessable Entity`：出現驗證錯誤時使用。
+* `429 Too Many Requests`：當請求由於訪問速率限製而被拒絕時。
 
