@@ -23,8 +23,8 @@ Web服務\(Web service\)** **是一種 **服務導向架構\(Service-oriented ar
 而在 RESTful API 中則會是這樣：
 
 ```
-GET /products/20    # 查詢
-PUT /products/20    # 修改
-GET /products/20    # 刪除
+GET /products/20        # 查詢
+PUT /products/20        # 修改
+DELETE /products/20     # 刪除
 ```
 
