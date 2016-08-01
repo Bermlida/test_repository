@@ -10,8 +10,23 @@ Web服務\(Web service\)** **是一種 **服務導向架構\(Service-oriented ar
 
 ## 範例
 
-假設現在要取得產品編號為 20 的產品資料，原本 URI 是這樣的：
-\/getProducts
-應該改成這樣的形式：
-GET \/products\/20
+假設現在要針對產品編號為 20 的產品資料，進行查詢、修改、刪除：
+
+在Web服務中往往會是這樣的：
+
+```
+/getProduct
+/updateProduct
+/deleteProducts
+```
+
+而在 RESTful API 中則會是這樣：
+
+```
+GET /products/20
+PUT /products/20
+GET /products/20
+```
+
+
 
