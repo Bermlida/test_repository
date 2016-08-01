@@ -8,11 +8,13 @@
 
 ## 定義
 
-從 **資源\(Resource\) **的角度來觀察整個網路，分布在網路各處的資源以 **資源標識符\(Resource Identifier\)** 表示，而應用程序通過資源標識符來進行對資源的操作，並獲得其 **表述\(Representational\) **。
+從 **資源\(Resource\) **的角度來觀察整個網路，分布在網路各處的資源以 **資源標識符\(Resource Identifier\)** 表示，
 
-獲得這些表述致使這些應用程序根據資源的表現形式決定如何 **轉移\(Transfer\) **其自身應用 **狀態\(State\)** 。
+而應用程序通過資源標識符來進行對資源的操作，並獲得其 **表述\(Representational\) **。
 
-隨著不斷獲取資源的表述，應用程序不斷地在轉變著其狀態，就是所謂的 **具象狀態傳輸\(Representational State Transfer\) **。
+也因此，應用程序的 **狀態\(State\)** 會隨著請求在客戶端和服務端之間來回 **傳遞\(Transfer\)** 。
+
+這就是所謂的 **具象狀態傳輸\(Representational State Transfer\) **。
 
 ## REST Triangle
 
