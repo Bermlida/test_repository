@@ -19,6 +19,7 @@
     * [Request Methods](design/request-methods.md)
     * [Internet Media Type](design/internet_media_type/README.md)
         * [Envelope](design/internet_media_type/envelope.md)
+        * HATEOAS
     * [HTTP Status Code](design/http-status-code.md)
 * [Security](security/README.md)
     * [HTTPS](security/https.md)
