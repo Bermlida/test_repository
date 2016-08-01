@@ -10,5 +10,5 @@ Web服務\(Web service\)** **是一種 **服務導向架構\(Service-oriented ar
 
 改以 **資源導向架構\(Resource-oriented architecture\)**，設計 API 。
 
-在Web服務中，所提供的各種API介麵，
+
 
