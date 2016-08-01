@@ -1,4 +1,4 @@
-# Response
+# Internet Media Type
 
 ---
 
