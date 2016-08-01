@@ -33,7 +33,7 @@
   取得特定用戶的用戶設定資料可以如下所示：
 
   ```
-  rfrrrr
+  /users/{user_id}/setting
   ```
 
 
