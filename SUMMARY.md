@@ -17,6 +17,7 @@
         * [Subresources](design/uri/subresources.md)
         * [Query And Identity](design/uri/query-and-identity.md)
     * [Request Methods](design/request-methods.md)
+        * [Safe And Idempotent](design/request_methods/safe-and-idempotent.md)
     * [Internet Media Type](design/internet_media_type/README.md)
         * [Envelope](design/internet_media_type/envelope.md)
         * [HATEOAS](design/internet_media_type/hateoas.md)
