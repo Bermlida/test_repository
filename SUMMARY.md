@@ -17,7 +17,7 @@
         * [Subresources](design/uri/subresources.md)
         * [Query And Identity](design/uri/query-and-identity.md)
     * [Request Methods](design/request-methods.md)
-    * [Response](design/response.md)
+    * [Response](design/internet_media_type/README.md)
     * [HTTP Status Code](design/http-status-code.md)
 * [Security](security/README.md)
     * [HTTPS](security/https.md)
