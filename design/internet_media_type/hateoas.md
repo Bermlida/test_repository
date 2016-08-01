@@ -38,6 +38,6 @@
 * uri：該資源所對應之資源標識符，可以搭配 actions 欄位協助客戶端進一步操作該資源。
 * category：產品分類，是該資源自身的資料欄位。
 * brand：產品品牌，品牌是與產品相關的其他資源，因此提供該資源的 URI 協助客戶端進一步操作；
-  name 與 description 則是該資源的相關訊息。
+              name 與 description 則是該資源的相關訊息。
 * sss
 
