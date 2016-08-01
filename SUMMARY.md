@@ -11,7 +11,7 @@
     * [Request Methods](restful_api/request.md)
     * [Response](restful_api/response.md)
 * [Design](design/README.md)
-    * [URI](design/uri.md)
+    * [URI](design/uri/README.md)
     * [Request Methods](design/request-methods.md)
     * [Response](design/response.md)
     * [HTTP Status Code](design/http-status-code.md)
