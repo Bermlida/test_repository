@@ -32,4 +32,5 @@
     * [Get User](api_reference/get-user.md)
     * [Delete User](api_reference/delete-user.md)
     * [Update User](api_reference/update-user.md)
+* [Reference](reference.md)
 
