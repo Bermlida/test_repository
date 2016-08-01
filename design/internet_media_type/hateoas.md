@@ -12,5 +12,31 @@
 
 * 如何透過該資源去存取、操作其他相關的各項資源。
 
+
 ## 範例
+
+假設客戶端打算獲取一項產品編號為 20 的產品資料，並已透過服務端取得了回應結果，
+
+而回應結果如下：
+
+```
+{
+   "uri": "/products/20",
+   "label": "Food",
+   "items_url": "/api/items?category=1",
+   "brands" : [
+         {
+            "label" : "友臣",
+            "brand_key" : "32073",
+            "url" : "/api/brands/32073"
+         }, {
+            "label" : "乐事",
+            "brand_key" : "56632",
+            "url" : "/api/brands/56632"
+         }
+         ...
+   ],
+   "hot_searches" : …
+}
+```
 
