@@ -22,21 +22,20 @@
 ```
 {
    "uri": "/products/20",
-   "label": "Food",
-   "items_url": "/api/items?category=1",
-   "brands" : [
-         {
-            "label" : "友臣",
-            "brand_key" : "32073",
-            "url" : "/api/brands/32073"
-         }, {
-            "label" : "乐事",
-            "brand_key" : "56632",
-            "url" : "/api/brands/56632"
-         }
-         ...
-   ],
-   "hot_searches" : …
+   "category": "Mobile",
+   "brand": {
+      "uri": "/brands/256",
+      "name": "InFocus",
+      "description": "An US electronics company."
+   },
+   "accessories_url": "/products/20/accessories",
+   "actions": ["GET", "PUT"]
 }
 ```
+
+上述 JSON 結構，欄位定義如下：
+
+* uri：該資源所對應之資源標識符，可以搭配 actions 欄位協助客戶端進一步操作該資源。
+* category：產品分類，是該資源自身的資料欄位。
+* brand：產品品牌，品牌是與產品相關的其他資源，因此提供該資源的 URI 協助客戶端進一步操作；name 與 description 則是該資源的相關訊息。
 
