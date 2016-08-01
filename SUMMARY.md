@@ -20,7 +20,7 @@
     * [Query And Identity](design/uri/query-and-identity.md)
 
   * [Request Methods](design/request_methods/README.md)
-* [Right Verb](design/request_methods/right-verb.md)
+    * [Right Verb](design/request_methods/right-verb.md)
     * [Safe And Idempotent](design/request_methods/safe-and-idempotent.md)
 
   * [Internet Media Type](design/internet_media_type/README.md)
