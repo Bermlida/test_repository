@@ -12,6 +12,7 @@
     * [Response](restful_api/response.md)
 * [Design](design/README.md)
     * [URI](design/uri/README.md)
+        * [Singular Or Plural](design/uri/singular-or-plural.md)
     * [Request Methods](design/request-methods.md)
     * [Response](design/response.md)
     * [HTTP Status Code](design/http-status-code.md)
