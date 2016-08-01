@@ -15,18 +15,16 @@ Web服務\(Web service\)** **是一種 **服務導向架構\(Service-oriented ar
 在Web服務中往往會是這樣的：
 
 ```
-/getProduct
-/updateProduct
-/deleteProducts
+/getProducts/20       # 查詢
+/updateProducts/20    # 修改
+/deleteProducts/20    # 刪除
 ```
 
 而在 RESTful API 中則會是這樣：
 
 ```
-GET /products/20
-PUT /products/20
-GET /products/20
+GET /products/20    # 查詢
+PUT /products/20    # 修改
+GET /products/20    # 刪除
 ```
-
-
 
