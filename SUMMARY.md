@@ -14,6 +14,7 @@
     * [URI](design/uri/README.md)
         * [Singular Or Plural](design/uri/singular-or-plural.md)
         * [Query And Identity](design/uri/query-and-identity.md)
+        * [Subresources](design/uri/subresources.md)
     * [Request Methods](design/request-methods.md)
     * [Response](design/response.md)
     * [HTTP Status Code](design/http-status-code.md)
