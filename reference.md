@@ -6,5 +6,4 @@
 
 * http:\/\/www.ruanyifeng.com\/blog\/2014\/05\/restful\_api.html
 
-* 
 
