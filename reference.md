@@ -8,6 +8,8 @@
 
 * [http:\/\/blog.mwaysolutions.com\/2014\/06\/05\/10-best-practices-for-better-restful-api\/](http://blog.mwaysolutions.com/2014/06/05/10-best-practices-for-better-restful-api/)
 
-* fff
+* [http:\/\/www.oschina.net\/translate\/best-practices-for-a-pragmatic-restful-api?lang=chs&page=1\#](http://www.oschina.net/translate/best-practices-for-a-pragmatic-restful-api?lang=chs&page=1#)
+
+
 
 
