@@ -37,7 +37,7 @@
 * ### Headers
 
   倘若 API 的版本資訊須置於標頭欄位，才能指定並使用特定版本的 API，則如下所示：
-  
+
   假設客戶端打算使用第二版的 API，並取得用戶識別碼為 25 的用戶資料
 
   * 請求：
@@ -46,14 +46,14 @@
       GET /api/users/25
       Host: laravel.framework
       Authorization: Basic xxxxxxxxxxxxxxxxxxx
-      Accept: application/vnd.ambergarden.egoods-v2+json
+      Accept: application/laravel.framework-v2+json
     ```
 
   * 回應：
 
     ```
     HTTP/1.1 200 OK
-    Content-Type: application/vnd.ambergarden.egoods-v2+json
+    Content-Type: application/laravel.framework-v2+json
     Content-Length: xxx
 
     {
