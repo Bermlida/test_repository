@@ -36,6 +36,15 @@
 
 * ### Headers
 
+  倘若 API 的版本資訊須置於標頭欄位，才能指定並使用特定版本的 API，則如下所示：
 
-倘若 API 的版本資訊須置於標頭欄位，才能指定並使用特定版本的 API，則如下所示：
+  * 請
+    ```
+      GET /api/users/25
+      Host: laravel.framework
+      Authorization: Basic xxxxxxxxxxxxxxxxxxx
+      Accept: application/vnd.ambergarden.egoods-v2+json
+    ```
+
+
 
