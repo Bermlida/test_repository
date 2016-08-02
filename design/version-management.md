@@ -46,6 +46,8 @@
       Authorization: Basic xxxxxxxxxxxxxxxxxxx
       Accept: application/vnd.ambergarden.egoods-v2+json
     ```
+  
+  * 回應
 
 
 
