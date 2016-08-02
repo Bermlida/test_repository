@@ -16,15 +16,13 @@
 
 假設現在 API 的版本有三個不宭的版本，
 
-倘若 API 的版本資訊包含於 URI 之中，則如下所示：
+倘若 API 的版本資訊包含於 URI 之中，則可以透過 URI 指定版本號，選擇使用的 API 版本，如下所示：
 
 ```
-/api/v1/users/25
+GET /api/v1/users/25    # 使用第一版的 API，取得用戶識別碼為 25 的用戶資料
 
-/api/v2/users/25
+GET /api/v2/users/25    
 ```
-
-
 
 ### URI：
 
