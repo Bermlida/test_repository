@@ -27,7 +27,7 @@ GET /api/v2/users/25    # 使用第二版的 API，取得用戶識別碼為 25 �
 另外，也可以指定一個通用的 API 介面，讓客戶端透過這個介面使用最新版本的 API：
 
 ```
-GET /api/users/25    
+GET /api/users/25    # 
 ```
 
 ### URI：
