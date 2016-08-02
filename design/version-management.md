@@ -21,7 +21,7 @@
 ```
 GET /api/v1/users/25    # 使用第一版的 API，取得用戶識別碼為 25 的用戶資料
 
-GET /api/v2/users/25    
+GET /api/v2/users/25    # 使用第二版的 API，取得用戶識別碼為 25 的用戶資料
 ```
 
 ### URI：
