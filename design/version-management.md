@@ -46,8 +46,20 @@
       Authorization: Basic xxxxxxxxxxxxxxxxxxx
       Accept: application/vnd.ambergarden.egoods-v2+json
     ```
-  
+
   * 回應
+
+    ```
+    HTTP/1.1 200 OK
+    Content-Type: application/vnd.ambergarden.egoods-v2+json
+    Content-Length: xxx
+     
+    {
+       "uri": "/api/users/25",
+       "name": "name23456",
+       ......
+    }
+    ```
 
 
 
