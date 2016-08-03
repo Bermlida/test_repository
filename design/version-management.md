@@ -46,14 +46,14 @@
       GET /api/users/25
       Host: laravel.framework
       Authorization: Basic xxxxxxxxxxxxxxxxxxx
-      Accept: application/laravel.framework-v2+json
+      Accept: application/vnd.laravel.framework-v2+json
     ```
 
   * 回應：
 
     ```
     HTTP/1.1 200 OK
-    Content-Type: application/laravel.framework-v2+json
+    Content-Type: application/vnd.laravel.framework-v2+json
     Content-Length: xxx
 
     {
